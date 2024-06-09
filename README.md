@@ -1,6 +1,6 @@
 # Projet de Maquette de Site Web pour Cabinet Dentaire
 
-Ce projet consiste a l'integration d'une maquette de site web pour un cabinet dentaire. L'objectif de ce projet est l'ntegrer la maquette d'une façon identique.
+L'objectif de ce projet est d'améliorer l'expérience des patients en ajoutant des fonctionnalités d'inscription et de connexion, en concevant un design responsive pour mobile, et en intégrant ces éléments. Le but est d'offrir une plateforme conviviale et accessible pour les utilisateurs.
 
 ## Technologies Utilisées
 
