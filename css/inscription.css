@@ -1,0 +1,350 @@
+:root{
+    --primary:#007bff;
+    --lightprimary:#0053b3;
+    --white:#ffff;
+    --primary:#007bff;
+    --silver:#bcbcbe9e;
+    --defautlinkcolor:#333;
+    --yellow:#ffd700;
+    --muted:#777777;
+    --whiteBG:#f8fAfc;
+    --primarybg:#516EFF;
+ }
+
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+body {
+
+    display: flex;
+    place-content: center;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+
+    
+    
+    
+}
+
+.container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 700px;
+    width: 650px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    box-shadow: 10px  var(--silver);
+    margin-bottom: 50px;
+    outline: #007bff;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    box-shadow: 10px solid gray;
+  
+    
+}
+.content h1 span {
+    color: var(--yellow);
+}
+a{
+    text-decoration: none;
+    color:#0F3DDE ;
+}
+p{
+    margin-top: 50px;
+    
+}
+
+form {
+    margin-top: 20px;
+    
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type=name],
+input[type="email"],
+input[type="password"]
+{
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    
+    
+}
+
+.submit button{
+    background-color: var(--primarybg);
+    border-radius: 8px;
+    width: 500px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    font-style: bold;
+    border: 1px solid var(--primarybg);
+   
+}
+ 
+.forgot-password {
+    font-size: 14px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    top: 4px;
+    color: #0f3dde;
+}
+
+
+
+
+.separateur {
+    margin: 35px 0;
+    text-align: center;
+    position: relative;
+    background-color: #ccc; 
+    height: 1px;
+    align-content: center;
+    
+}
+
+  .separateur span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    /* margin: 2px; */
+    z-index: 1;
+    width: 1px; 
+    text-align: center;
+   
+  }
+
+
+.separateur::after {
+    content: "";
+    position: absolute;
+    right: 0; 
+    height: 1px;
+    background-color: #ccc;
+}
+#remember{
+     
+     margin-right: 10px;
+     margin-top: 50px;
+     
+    
+    /* margin-right:10px ;
+    margin-top: 20px;
+    display: flex; */
+    
+} 
+.remember{
+     display: flex;
+    margin-top: 10px;
+    text-align: center;
+  
+}
+.separateur::before {
+    content: "";
+    position: absolute;
+    left:0; 
+    height: 1px;
+    background-color: #ccc;
+}
+
+.separateur::after {
+    left: 100%;
+    margin-left: 15px;
+} 
+.image{
+    width: 50%;
+}
+.image img {
+    /* flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 604px;
+    bottom: 0;
+    border-radius: 20px 20px 20px 20px;
+    width: 500px;
+
+    
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.google-button{
+    display: flex;
+    align-items: center;
+    padding: 12px 17px;
+    font-size: 15px;
+    cursor: pointer;
+   margin-right: 40px;
+    width: 100%;
+    background-color: transparent;
+    background-color:#CCC ;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+.apple-button {
+    display: flex;
+    align-items: center;
+    padding: 12px 17px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 10px;
+    width: 100%;
+    background-color:#CCC ;
+    border-radius: 5px;
+    margin-right: 0;
+    
+    
+}
+P.account {
+    display: flex;
+    justify-content: center;
+}
+
+.google-button img,
+.apple-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+@media  screen and (max-width:430px){
+    .container {
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        background-color: white;
+        border: none;
+        
+        width: 100%;
+        
+        
+    }
+    content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        
+      
+   
+}
+input[type=name],
+input[type="email"],
+input[type="password"]
+{
+    width: 350px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 0 auto;
+
+   
+    
+    
+}
+.submit button{
+    background-color: var(--primarybg);
+    border-radius: 8px;
+    width: 350px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 40px;
+    color: white;
+    font-size: 15px;
+    font-style: bold;
+    border: 1px solid var(--primarybg);
+   
+}
+.separateur span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    z-index: 1;
+    width: 1px; 
+    text-align: center;
+
+    
+   
+  }
+  .separateur {
+    margin: 35px 0;
+    text-align: center;
+    position: relative;
+    background-color: #ccc; 
+    height: 1px;
+    align-content: center;
+    margin-top: 45px;
+    
+}
+  .google-button{
+    display: flex;
+    align-items: center;
+    padding: 10px 13px;
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 40px;
+    width: 100%;
+    background-color: transparent;
+    background-color:#CCC ;
+    border-radius: 5px;
+    margin-left: -2px;
+}
+.apple-button {
+    display: flex;
+    align-items: center;
+    padding: 10px 14px;
+    font-size: 15px;
+    cursor: pointer;
+    font-size: 12px;
+    width: 100% ;
+    background-color: #CCC ;
+    border-radius: 5px;
+    margin-right: 0;
+    
+    
+}
+
+
+
+}
