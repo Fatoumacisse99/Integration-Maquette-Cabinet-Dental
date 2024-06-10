@@ -961,12 +961,12 @@ footer{
         margin: 0 auto;
     }
    .stories {
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
   
-   }
-.stories .left , .stories .right1 {
+    }
+    .stories .left , .stories .right1 {
     width: 80%;
     margin-right: 100px;
     
