@@ -12,17 +12,21 @@
         <div class="logo"><img src="images/Logo.png" alt="logo du site" /></div>
       </div>
 
-      <nav>
+      <nav class="content-menu">
         <ul class="menu">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#about-us">About us</a></li>
-          <li><a href="#about-us">Appotinment</a></li>
-          <li><a href="#">Sing Up</a></li>
+          <li><a class="survol-souris" href="#home">Home</a></li>
+          <li><a class="survol-souris"  href="#services">Services</a></li>
+          <li><a class="survol-souris" href="#about-us">About us</a></li>
+          <li><a class="survol-souris" href="#about-us">Appotinment</a></li>
+          <li><a class="survol-souris" href="#">Sing Up</a></li>
+          <li><a  class="button" href="#">Login</a></li>
 
         </ul>
+        <!-- <button type="bouton">Login</button> -->
+        <div class="toggle-menu"></div>
       </nav>
-        <button type="bouton">Login</button>
+        
+        
       
     </header> 
     <div class="ligne"></div>
@@ -48,7 +52,7 @@
         </div>
       </section> 
 
-    <section class="bleu">
+     <section class="bleu">
       <div class="services" id="services">
         <div class="texte">
           <h2>How to get our service?</h2>
@@ -69,7 +73,7 @@
           </div>
         </div>
       </div>
-    </section>  
+    </section>   
 
    <section class="sectiontrois" id="sectiontrois">
       <div class="medecin">
@@ -112,9 +116,9 @@
       
       </div>
     </div>
-      <!-- </div> -->
+      </div> 
       
-  </section>
+  </section> 
     <div class="diagnost">
      
       <h2>OUR<span> SERVICES</span></h2>
@@ -122,7 +126,7 @@
      </div>
      <div class="ligne"></div>
    <!-- <section> -->
-    <section id="diagnos">
+     <section id="diagnos">
       
       <div class="diagnosti">
         <div class="diagnostic diagnostic1">
@@ -156,14 +160,14 @@
           <h1>Laser Technology</h1> 
           <p>Transform you blackissh gum to pinkish<br>colour with painless, single appointment<br>Laser Gum Treatment</p>
         </div>
-      <!-- </div> -->
+      </div> ²
     </div>
-    </section >    
+    </section >     
 
 
    
 
-    <section>
+     <section>
       
       
       
@@ -186,8 +190,8 @@
       </div>
     </div>
     <!-- ::::::::::::::::::::::::::::section description doctor::::::::::::::::::::::::::::::::::::::::-->
-    </section>
-    <section class="contsection">
+    </section>  
+     <section class="contsection">
       <div class="diagnost">
         
         <h2>MEET OUR<span> DOCTORS</span></h2>
@@ -229,9 +233,9 @@
       </div>
        </div>
       </div>
-    </section>
+    </section> -->
         <!-- ::::::::: section consultation ::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
-<section id="appointment">
+ <section id="appointment">
   <div>
     
     <div class="histories">
@@ -245,7 +249,7 @@
       
     </div>
     
-    </div>
+    </div> 
     <!-- /:::::::::::::::::::::::::::::::::::::::partie formulaire:::::::::::::::::::::::::::::::::::::::: -->
     <div class="content">
     <div class="content-picture"><img src="images/doctor-with-tablet-computer.jpg" alt="image contact"></div>
@@ -288,9 +292,9 @@
   </form>
     <div>
   
-</section>
+</section> 
 <!-- :::::::::::::::::::::::::::::::::avant derniere section::::::::::::::::::::::::::::::::::::::::::::::::::::  -->
-<section class="subscribe">
+ <section class="subscribe">
   
     <form id="form1" >
       <h2>Subscribe to our newsletter</h2>
@@ -301,9 +305,9 @@
       </div>
     </form>
   </div>
-</section>
+</section> 
               <!-- ::::::::::::::::::derniere section::::::::::::::::::::::::::::::::: -->
-<section class="dernier-section1">
+ <section class="dernier-section1">
                
                 <div class="dernier-section">
                   <div class="div1">
@@ -344,6 +348,15 @@
               </section> 
               <footer>
                 <p class="copy-right">&copy 2021-2022,All Rights Reserved </p>
-              </footer>
+              </footer> 
+              <script>
+                var small_menu = document.querySelector(".toggle-menu");
+                var menu = document.querySelector(".menu");
+          
+                small_menu.onclick = function () {
+                  small_menu.classList.toggle("active");
+                  menu.classList.toggle("responsive");
+                };
+              </script>
   </body>
 </html>

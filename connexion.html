@@ -12,7 +12,10 @@
       <div class="content">
         <h1>Welcome <span>back!</span></h1>
         
-        <form>
+        <form  name="MonFormulaire"
+        action="/votre_page_de_traitement.php"
+        onsubmit="return validerFormulaire()"
+        method="post">
           <div class="form-group">
 
           <div class="form-group">
@@ -61,5 +64,7 @@
       </div>
      
     </div>
+    
   </body>
+  <script src="form.js"></script>
 </html>
