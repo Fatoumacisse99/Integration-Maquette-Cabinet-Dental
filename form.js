@@ -24,8 +24,4 @@ function validerFormulaire() {
         alert('Le mot de passe doit contenir au moins une lettre.');
         return false; //
 
-// Fonction pour vérifier si l'adresse e-mail est valide
-function isValidEmail(email) {
-    const emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-    return emailRegex.test(email);
-}}}
+}}
