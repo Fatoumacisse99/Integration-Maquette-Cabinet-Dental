@@ -1,5 +1,5 @@
 
- :root{
+:root{
     --primary:#007bff;
     --lightprimary:#0053b3;
     --white:#ffff;
@@ -10,7 +10,7 @@
     --muted:#777777;
     --whiteBG:#f8fAfc;
     --primarybg:#516EFF;
- }
+}
 *{
     box-sizing: border-box;
     margin: 0;
@@ -79,48 +79,46 @@ nav ul li a.survol-souris {
     color: var(--muted); 
 }
 .menu li {
-     list-style: none; 
+    list-style: none; 
 }
 .menu li a.survol-souris {
-     font-size: 14px;
-     text-decoration:0 ;
-     color: #999;
-     position: relative;
+    font-size: 14px;
+    text-decoration:0 ;
+    color: #999;
+    position: relative;
 }
 .menu li a.survol-souris::before {
-     position: absolute;
-     top: -5px;
-     left: 0;
-     content: "";
-     width: 0;
-     height: 2px;
-     border-radius: 6px;
-     background-color: var(--primarybg);
-     transition: 0.5s;
- }
+    position: absolute;
+    top: -5px;
+    left: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 6px;
+    background-color: var(--primarybg);
+    transition: 0.5s;
+}
 .menu li a.survol-souris:hover::before{
-     width: 100%;
- }
- .menu li a.survol-souris::after{
-     position: absolute;
-     bottom: -5px;
-     right: 0;
-     content: "";
-     width: 0;
-     height: 2px;
-     border-radius: 6px;
-     background-color: var(--yellow);
-     transition: 0.5s;
- }
- .menu li a.survol-souris:hover::after{
-     width: 100%;
- }
+    width: 100%;
+}
+.menu li a.survol-souris::after{
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+    content: "";
+    width: 0;
+    height: 2px;
+    border-radius: 6px;
+    background-color: var(--yellow);
+    transition: 0.5s;
+}
+.menu li a.survol-souris:hover::after{
+    width: 100%;
+}
  .menu li a.survol-souris:hover{
-     color: var(--primarybg);
+    color: var(--primarybg);
  
- }
-
-
+}
 
 #divbutton{
     display: flex;
@@ -130,33 +128,24 @@ header a.button  {
     color: white;
     font-size: 17px;
 }
-/* header a.button :hover {
-    color: #ffd700;
-} */
-
 header .button {
    background-color: var(--primarybg);
    padding: 12px 30px;
-    border: none;
-    border-radius: 5px;
-  cursor: pointer; 
-    margin-right: 10px;
-    
-    font-size: 16px;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer; 
+   margin-right: 10px;   
+   font-size: 16px;
 }
 header .button:hover {
-  color: white;
-  font-size: 15px;
+   color: white;
+   font-size: 15px;
 }
 .ligne{
     width:100%;
     height: 1px;
-    background-color:rgb(169, 167, 172);
-    /* flex-wrap: wrap; */
-    
-    
+    background-color:rgb(169, 167, 172);   
 }
-
 #home{
     display: flex;
     justify-content: space-between;
@@ -164,21 +153,16 @@ header .button:hover {
     place-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    
     width: 100%;
-    }
+}
 #home .left {
-  
    margin-left: 60px;
    width: 100%;
    display: flex;
    flex-direction: column ;
    justify-content: center;
    align-items: start;
-   
-
 } 
-
 #home .left p{
     font-size: 19px;
     margin-right: 15px;
@@ -186,18 +170,16 @@ header .button:hover {
     margin-top: 30px;
     line-height: 25px;
 }
-    #home .left h1{
+#home .left h1{
    font-size: 50px;
    font-weight: bold; 
-   margin-top: 0;
-    
-    }
-    #home .left button:nth-of-type(2) a {
-        color: var(--muted);
-    }
+   margin-top: 0;   
+}
+#home .left button:nth-of-type(2) a {
+     color: var(--muted);
+}
 #home .left button {
     margin-top: 25px;
-    
     padding: 15px 35px;
     border: 10px;
     width: 209px;
@@ -211,40 +193,33 @@ header .button:hover {
     font-size: 15px;
 }
      
-    #home .left button:nth-of-type(2) {
-        background-color: white;
-        border: 2px solid #ccc;
-        color: gray;}
+#home .left button:nth-of-type(2) {
+    background-color: white;
+    border: 2px solid #ccc;
+    color: gray;}
+.left button a{
+    color: white;
 
-
-    .left button a{
-        color: white;
-
-    }
-    
-
+}
 #home .right{
     display: flex;
     justify-content: left;
     align-items: center;
     width: 100%;
 }
-
 #home .right img {
     width: 80%;
     margin-right: 50px;
     border-radius: 30px;
     display: flex;
     justify-content: left;
-    align-items: center;
-   
-   
+    align-items: center;  
 }
 
 .left span{
     color: var(--yellow);
 }
- .services{
+.services{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -266,9 +241,8 @@ header .button:hover {
 .bleu{
     padding: 0 28px;
     background-color:var(--primarybg);
-   padding-top: 25px;
-   padding-bottom: 25px;
-    
+    padding-top: 25px;
+    padding-bottom: 25px;    
 }
 .ordonner{
 
@@ -312,12 +286,11 @@ header .button:hover {
     display: flex;
 }
 #sectiontrois .medecin{
-width: 42%;
-padding: 50px 0 50px 50px;
-background:var(--whiteBG) ;
-border-radius: 0 0 70px 0;
+    width: 42%;
+    padding: 50px 0 50px 50px;
+    background:var(--whiteBG) ;
+    border-radius: 0 0 70px 0;
 }
-
 .contentlist{
     display: flex;
     justify-content: center;
@@ -329,7 +302,6 @@ border-radius: 0 0 70px 0;
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    /* text-align: center; */
 }
 .shield{
    width: 100%;
@@ -348,14 +320,12 @@ border-radius: 0 0 70px 0;
 }
 .list P{
     margin-bottom: 10px;
-    font-size: 20px;
-  
+    font-size: 20px;  
 }
 .premlist{
     margin-right: 50px;
 }
 .deulist{
-   
     margin-left: 50px;
 }
 .provide{
@@ -367,7 +337,6 @@ border-radius: 0 0 70px 0;
 .makes h2 {
     margin-top: 100px; 
     font-size: 40px;
-
 }
 h2 span {
     color: var(--yellow);
@@ -510,7 +479,7 @@ h2 span {
     color: var(--primarybg);
 }
 a{
-text-decoration: none;        
+    text-decoration: none;        
 }
 .button a{
     color: var(--lightprimary);
@@ -568,7 +537,7 @@ text-decoration: none;
 
         
 }
-     #about-us .dame{
+#about-us .dame{
     background-color: var(--white);
     height: 300px;
     width: 280px;
@@ -576,33 +545,29 @@ text-decoration: none;
 }
 .dame h1{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 10px;       
+}
+.mini-desc P{
+    margin-top: 20px;
+    line-height: 30px;
 
-        
-     }
-     .mini-desc P{
-        margin-top: 20px;
-        line-height: 30px;
-
-     }
-     /* <!-- ::::::::: css-section-consultation ::::::::::::::::::::::::::::::::::::::::::::::::::::: --> */
+}
+/* <!-- ::::::::: css-section-consultation ::::::::::::::::::::::::::::::::::::::::::::::::::::: --> */
 
 .content{
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
         
 
        
 }
-
 input{
-        padding: 10px 25px;
-       margin: 5px 20px;
-        border-radius: 8px;
-        border-color: var(--silver);
-        width: 250px;
-
+    padding: 10px 25px;
+    margin: 5px 20px;
+    border-radius: 8px;
+    border-color: var(--silver);
+    width: 250px;
 }
 select{
     padding: 10px 30px;
@@ -612,8 +577,6 @@ select{
     margin-right: 22px;
     width: 250px;
     color: grey;
-
-
 }
 #form #date{
     color: gray;
@@ -623,164 +586,148 @@ label {
        
 }
 .boite-left{
-     display: flex;
+    display: flex;
     justify-content: space-between;
       
 }
  
-     .boite-right{
+.boite-right{
     display: flex;
     justify-content: space-between;
-     
-
 }
 #remember {
-        margin: 0;
-        padding: 0;
-        width: 50px;
-        margin-left: 10px;
-        margin-right: -10px;
-        margin-bottom: 10px;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
 
 }
-     .content-picture img{
-     width: 320px;
-     border-radius: 20px;
+.content-picture img{
+    width: 320px;
+    border-radius: 20px;
 }
 form#form {
     height: 550px;
 }
 
 #form .corps-formulaire {
-            display: flex;
-            flex-direction: column;
-            top: 0;
-            margin-bottom: 200px;
-            margin-left: 25px;
-         
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    margin-bottom: 200px;
+    margin-left: 25px;        
 }
-
 #form .corps-formulaire .boite {
-            position: relative;
-            margin-top: 20px;
-            display: flex;
-            flex-direction: column;
-        }
-        textarea{ 
-            margin-top: 10px;
-            width: 93%;
-           padding: 10px; 
-           border: 2px solid var(--silver);
-           outline-color:var(--primarybg);
-           border-radius: 5px;
-           resize: none;
-           height: 150px;
-           margin-bottom: 20px;
-           margin-left: 18px;
-          
-           
-          
-        } 
-    
-
+    position: relative;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+textarea{ 
+    margin-top: 10px;
+    width: 93%;
+    padding: 10px; 
+    border: 2px solid var(--silver);
+    outline-color:var(--primarybg);
+    border-radius: 5px;
+    resize: none;
+    height: 150px;
+    margin-bottom: 20px;
+    margin-left: 18px;          
+}
 #bouton{
-            background-color: var(--primarybg);
-            color: white;
-            margin-top: 10px;
-            border-radius: 5px;
-            font-size: 15PX;
-            border:none;
-            padding: 10px 20px; 
-            width: 92%;
-            cursor: pointer;
-            margin-left: 25px;
+    background-color: var(--primarybg);
+    color: white;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15PX;
+    border:none;
+    padding: 10px 20px; 
+    width: 92%;
+    cursor: pointer;
+    margin-left: 25px;
 }  
 #form  button :hover{
-            transform: scale(1.05);
-        }
-.subscribe{
-            background-color: var(--whiteBG);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            margin-bottom: 40px;
-            height: 350px;
+    ransform: scale(1.05);
 }
-        .subscribe #form1{
-            background-color: #216583;
-            display: flex;
-            justify-content: space-evenly;
-            margin: 100px;
-            height: 230px;
-            flex-direction: column;
-            padding: 16%; 
-            border-radius: 15px;
-            padding-bottom: 30px;
-            width: 1150px;
+.subscribe{
+    background-color: var(--whiteBG);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    height: 350px;
+}
+.subscribe #form1{
+    background-color: #216583;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px;
+    height: 230px;
+    flex-direction: column;
+    padding: 16%; 
+    border-radius: 15px;
+    padding-bottom: 30px;
+    width: 1150px;        
+}
+.subscribe #form1 h2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: -180px;
+}
 
-        
-        }
-        .subscribe #form1 h2{
-            display: flex;
-            justify-content: center;
-            color: white;
-            margin-top: -180px;
-        }
-
-        .inputclass{
-            display: flex;
-            justify-content: center;
-            margin-right: 0px;
-            align-items: center;
+.inputclass{
+    display: flex;
+    justify-content: center;
+    margin-right: 0px;
+    align-items: center;
             
-            
-        }
-        #form1 .inputclass input{
-             background-color: var(--silver); 
-          
-           
+}
+#form1 .inputclass input{
+    background-color: var(--silver); 
+ 
+  
 
-        }
-         #form1 .inputclasse .put{
-            padding: 10px 20px;   
-            background: var(--primary); 
-          
-        }
-         #form1 button {
-            padding: 12.1px 30px;
-            border-radius: 8px 8px 8px 8px;
-            border : navajowhite;
-            width: 250px;
-           
-            
-        }
-       
-        /* :::::::::::::::::::::::::::dernier section:::::::::::::::::::::::::::::::::::::::::::::: */
-        .dernier-section{
-            display: flex;
-            background-color: var(--primarybg);
-            justify-content: space-between;
-            color: var(--white);
-            align-items: center;
-            flex-wrap:noswrap;
-            padding: 100px;
+}
+#form1 .inputclasse .put{
+   padding: 10px 20px;   
+   background: var(--primary); 
+ 
+}
+#form1 button {
+   padding: 12.1px 30px;
+   border-radius: 8px 8px 8px 8px;
+   border : navajowhite;
+   width: 250px;
+  
+   
+}
 
-        }
+/* :::::::::::::::::::::::::::dernier section:::::::::::::::::::::::::::::::::::::::::::::: */
+.dernier-section{
+   display: flex;
+   background-color: var(--primarybg);
+   justify-content: space-between;
+   color: var(--white);
+   align-items: center;
+   flex-wrap:noswrap;
+   padding: 100px;
 
-    
+}    
 .dernier-section .div1,
 .dernier-section .div2,
 .dernier-section .div3 {
-  border-right: 1px solid var(--silver);
-  padding-right: 40px; 
+   border-right: 1px solid var(--silver);
+   padding-right: 40px; 
  
 }
 .div1 img{
     filter: invert(100%);
     filter: brightness(100);
-    height: 30px;
-
-    
+    height: 30px;    
 }
 .reseau-sociaux{
     display: flex;
@@ -803,23 +750,21 @@ form#form {
 .reseau-sociaux1{
     display: flex;
     flex-direction: column;
-    margin-right: 25px;
-   
+    margin-right: 25px;   
 }
 .reseau-sociaux2{
     display: flex;
     flex-direction: column;
 }          
 footer{
-         background-color: #216583;
-            height: 50px;
-            display: flex;
-            justify-content: center;
-            color: white;
-            align-items: center;
+    background-color: #216583;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: center;
 }
 #lignehr{
-    
     text-align: right;
 }
 #lignehr span{
@@ -830,15 +775,12 @@ footer{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    
-    
-
 }
 .toggle-menu {
     display: none;
 }
 @media  screen and (max-width:500px){
-     header .menu{
+    header .menu{
         display: none;
         
         
@@ -854,7 +796,7 @@ footer{
         flex-direction: column;
         /* height: fit-content; */
        
-        }
+    }
     #home .left  {
         width: 80%;  
        
@@ -892,7 +834,6 @@ footer{
     }
     .texte h2{
         font-size: 29px;
-        
         margin-top: 20px;
     }
     .texte p {
@@ -903,56 +844,49 @@ footer{
         flex-direction: column;
         
     }
-    
     #sectiontrois .medecin{
     width: 90%;
     padding: 0px 0 50px 50px;
     background:none ;
     border-radius: 0 0 70px 0;
-   
-    
     }
     #sectiontrois .medecin img {
-        width: 100%;
-        
+        width: 100%;    
     }
     .contentlist{
-         display: flex;
-        justify-content: center;
-        width: 100%;
-    
-       
-       
-       
+       display: flex;
+       justify-content: center;
+       width: 100%;   
     }
     #sectiontrois .list h2{
-        margin-left: 100px;
-        font-size: 25px;
+       margin-left: 100px;
+       font-size: 25px;
     }
-     
     .list P {
-        font-size: 19px;
-       
+       font-size: 14px;   
     }
     .list {
-        width: 80%;
-      
+        width: 80%;   
     }
-     
+     .premlist{
+       width: 40%;
+    }
     .deulist {
-     width: 100%;
+       width: 40%;
+    }
+    .shield img {
+        width: 40px;
     }
     .shield {
        align-items: center;
-       width: 100%;
-        justify-content: center;
+       width: max-content;
+       justify-content: center;
+
     }
     .diagnosti {
-      display: grid;
-      grid-template-rows: repeat(1, 1fr);
-      grid-template-columns: repeat(1, 1fr);
-      
-     
+       display: grid;
+       grid-template-rows: repeat(1, 1fr);
+       grid-template-columns: repeat(1, 1fr);
     }
     .diagnost h2{
         font-size: 30px;
@@ -961,166 +895,151 @@ footer{
         margin: 0 auto;
     }
    .stories {
-      flex-direction: column;
-      justify-content: center;
-      width: 100%;
-  
+       flex-direction: column;
+       justify-content: center;
+       width: 100%;
     }
     .stories .left , .stories .right1 {
-    width: 80%;
-    margin-right: 100px;
-    
-}
-.stories .right1 P {
-    line-height: normal;
-    
-}
-
-.stories .left img {
-    width: 100%;
-    
-  
-}
-.stories .right1{
-   margin-top: 20px;
+       width: 80%;
+       margin-right: 100px;
+    }
+    .stories .right1 P {
+       line-height: normal;
+    }
+   .stories .left img {
+       width: 100%;  
+    }
+    .stories .right1{
+       margin-top: 20px;   
+    }
+    .story h1{
+       font-size: 30px;
+    }
+    .container{
+       display: flex;
+       flex-direction: column;
+    }
+    .content-picture img {
+       display: none;
+    }
+    .boite-left {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+   }
+   .boite-right {
+       display: flex;
+       flex-direction: column;
+    } 
+    .inputclass {
+       display: flex;
+       flex-direction: column;
+       margin-top: 0;
+    }
+    #form1 .inputclass input{
+       width: 309px;
+    }
+    #form1 button {
+       width: 309px;
+       margin-top: 4px;
+    }  
+    .subscribe{
+       margin-top: 100px;
+       height: 300px;
+    }
+    .subscribe #form1{   
+       width: 380px;
+       padding: 12%;
+       height: max-content;
+       border-radius: 20px;
+       gap: 12px;
+    }  
+    .subscribe #form1 h2{
    
-   
-}
-.story h1{
-    font-size: 30px;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-}
-.content-picture img {
-    display: none;
-}
-.boite-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.boite-right {
-    display: flex;
-    flex-direction: column;
-} 
-.inputclass {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-}
-#form1 .inputclass input{
-    width: 309px;
-}
-#form1 button {
-    width: 309px;
-    margin-top: 4px;
-}
-.subscribe{
-    margin-top: 100px;
-    height: 300px;
-}
-.subscribe #form1{
-
-    width: 380px;
-    padding: 12%;
-    border-radius: 20px;
-    gap: 12px;
-}
-.subscribe #form1 h2{
-   
-    margin-top: 0;
-    font-size: 20px;
-}
-
-textarea {
-   
-     width: 80%;
-    
-} 
-.dernier-section{
-    display: flex;
-    background-color: var(--primarybg);
-    justify-content: space-between;
-    color: var(--white);
-    align-items: center;
-    flex-wrap:wrap;
-    padding: 10px auto;
-
-}
-
-
-.dernier-section .div1,
-.dernier-section .div1,
-.dernier-section .div2,
-.dernier-section .div3 {
-  padding-bottom: 40px; 
-  border: none;
-  padding-top: 20px;
-  border-bottom: 1px solid var(--silver);
-  
- 
-}
-.dernier-section .div4 {
-    padding-top: 20px;
-}
-.toggle-menu {
-    display: flex;
-    height: 40px;
-    width: 40px;
-   display: flex;
-      align-items: center;
-     justify-content: center;
-     position: relative;
-     cursor: pointer;
-}
-.toggle-menu::before {
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 28px;
-    background-color:  #0d0e0d;
-    border-radius: 6px;
-    box-shadow: 0 10px 0  #0d0e0d;
-    transform: translateY(-10px);
-    transition: 0.5s;
-}
-.toggle-menu.active::before {
-    transform: translateY(0) rotate(135deg); 
-    box-shadow: 0 0 0 #0d0e0d;
-
+       margin-top: 0;
+       font-size: 20px;
+    }
+    .subscribe #form1 input {
+        margin: 10px 10px;
+    }
+    textarea {
+       width: 73%;
+       height: 100px;
+   } 
+   .dernier-section{
+       display: flex;
+       background-color: var(--primarybg);
+       justify-content: space-between;
+       color: var(--white);
+       align-items: center;
+       flex-wrap:wrap;
+       padding: 10px auto;
+    }
+    .dernier-section .div1,
+    .dernier-section .div1,
+    .dernier-section .div2,
+    .dernier-section .div3 {
+        padding-bottom: 40px; 
+        border: none;
+        padding-top: 20px;
+        border-bottom: 1px solid var(--silver);
+    }
+    .dernier-section .div4 {
+       padding-top: 20px;
+    }
+    .toggle-menu {
+       display: flex;
+       height: 40px;
+       width: 40px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       position: relative;
+       cursor: pointer;
+   }
+   .toggle-menu::before {
+       position: absolute;
+       content: "";
+       height: 3px;
+       width: 28px;
+       background-color:  #0d0e0d;
+       border-radius: 6px;
+       box-shadow: 0 10px 0  #0d0e0d;
+       transform: translateY(-10px);
+       transition: 0.5s;
+    }
+    .toggle-menu.active::before {
+       transform: translateY(0) rotate(135deg); 
+       box-shadow: 0 0 0 #0d0e0d;   
     }   
-.toggle-menu::after { 
-    position: absolute;
-    content: "";
-    height: 3px;
-    width: 28px;
-    background-color: #0d0e0d;
-    border-radius: 6px;
-    transform: translateY(10px);
-}
-.toggle-menu.active::after {
-    transform: translateY(0) rotate(-135deg); 
-    box-shadow: 0 0 0  #0d0e0d;
-
- }   
+    .toggle-menu::after { 
+       position: absolute;
+       content: "";
+       height: 3px;
+       width: 28px;
+       background-color: #0d0e0d;
+       border-radius: 6px;
+       transform: translateY(10px);
+    }
+    .toggle-menu.active::after {
+       transform: translateY(0) rotate(-135deg); 
+       box-shadow: 0 0 0  #0d0e0d;
+    }   
     header .menu.responsive {
-    display: flex;
-    position: absolute;
-    top: 50px;
-    width: 60%;
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    flex-direction:column;
-    right: 0;
-    height: 40%;
-    line-height: 2;
- }
+       display: flex;
+       position: absolute;
+       top: 50px;
+       width: 60%;
+       display: flex;
+       align-items: center;
+       background-color: #fff;
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       flex-direction:column;
+       right: 0;
+       height: 40%;
+       line-height: 2;
+    }
     header .menu.responsive li {
        margin: 25px O;
-    }
-
+   }    
 }
