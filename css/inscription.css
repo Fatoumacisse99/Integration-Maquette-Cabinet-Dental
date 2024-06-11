@@ -242,7 +242,7 @@ P.account {
     margin-right: 10px;
     
 }
-@media  screen and (max-width:430px){
+@media  screen and (max-width:500px){
     .container {
         margin-top: 100px;
         display: flex;

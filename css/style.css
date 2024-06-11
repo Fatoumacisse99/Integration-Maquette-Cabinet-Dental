@@ -604,6 +604,10 @@ label {
     margin-bottom: 10px;
 
 }
+.div-checbox {
+    display: flex;
+    
+}
 .content-picture img{
     width: 320px;
     border-radius: 20px;
@@ -792,9 +796,10 @@ footer{
         display: none;
     }
     #home{
-        
         flex-direction: column;
-        /* height: fit-content; */
+        justify-content: center;
+        align-items: center;
+        
        
     }
     #home .left  {
@@ -837,7 +842,8 @@ footer{
         margin-top: 20px;
     }
     .texte p {
-       width: 100%;
+        text-align: center;
+        margin-right: 70px
     }
     #sectiontrois{
         display: flex;
@@ -869,7 +875,7 @@ footer{
         width: 80%;   
     }
      .premlist{
-       width: 40%;
+       width: 35%;
     }
     .deulist {
        width: 40%;
@@ -910,7 +916,9 @@ footer{
        width: 100%;  
     }
     .stories .right1{
-       margin-top: 20px;   
+       width: 470px;
+       margin: 20px auto;
+       height: 350px;
     }
     .story h1{
        font-size: 30px;
@@ -931,10 +939,26 @@ footer{
        display: flex;
        flex-direction: column;
     } 
+     .corps-formulaire{
+      margin-right: 40px;
+       margin-left: 0;
+    } 
     .inputclass {
        display: flex;
        flex-direction: column;
        margin-top: 0;
+    }
+    #remember {
+       
+        margin-left: 0;
+    }
+    .btn-confirm {
+        width: 92%;
+        margin-right: 25px;
+    }
+    .div-checbox  P {
+        font-size: 12px;
+
     }
     #form1 .inputclass input{
        width: 309px;
@@ -964,19 +988,22 @@ footer{
         margin: 10px 10px;
     }
     textarea {
-       width: 73%;
+       width: 86%;
        height: 100px;
-   } 
+    } 
+    #button {
+        width: 10%;
+    }
+   
    .dernier-section{
        display: flex;
        background-color: var(--primarybg);
-       justify-content: space-between;
+       justify-content: center;
        color: var(--white);
        align-items: center;
        flex-wrap:wrap;
        padding: 10px auto;
     }
-    .dernier-section .div1,
     .dernier-section .div1,
     .dernier-section .div2,
     .dernier-section .div3 {
@@ -987,6 +1014,7 @@ footer{
     }
     .dernier-section .div4 {
        padding-top: 20px;
+       
     }
     .toggle-menu {
        display: flex;
