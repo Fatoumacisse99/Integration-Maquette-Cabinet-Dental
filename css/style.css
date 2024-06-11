@@ -401,6 +401,9 @@ h2 span {
     font-weight: bold;
     font-size: 20px;
 }
+hr.hr{
+    color: #f7f2f2;
+}
 .stories{
     display: flex;
     justify-content: space-between;

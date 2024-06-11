@@ -58,6 +58,12 @@ body {
   
     
 }
+a.img{
+    position: absolute;
+    left: 380px;
+    top: 70px;
+}
+  
 .content h1 span {
     color: var(--yellow);
 }
@@ -268,53 +274,52 @@ P.account {
         
       
    
-}
-input[type=name],
-input[type="email"],
-input[type="password"]
-{
-    width: 350px;
-    box-sizing: border-box;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin: 0 auto;
+    }
+    a.img{
+        position: absolute;
+        left: 30px;
+        top: 20px;
+    }
+    
+    input[type=name],
+    input[type="email"],
+    input[type="password"]{
 
+        width: 350px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 0 auto; 
+    }
+    .submit button{
+        background-color: var(--primarybg);
+        border-radius: 8px;
+        width: 350px;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 40px;
+        color: white;
+        font-size: 15px;
+        font-style: bold;
+        border: 1px solid var(--primarybg);
    
-    
-    
-}
-.submit button{
-    background-color: var(--primarybg);
-    border-radius: 8px;
-    width: 350px;
-    padding: 10px;
-    box-sizing: border-box;
-    margin-top: 40px;
-    color: white;
-    font-size: 15px;
-    font-style: bold;
-    border: 1px solid var(--primarybg);
-   
-}
-.separateur span {
-    background-color: white;
-    padding: 0 10px;
-    position: relative;
-    z-index: 1;
-    width: 1px; 
-    text-align: center;
-
-    
-   
-  }
-  .separateur {
-    margin: 35px 0;
-    text-align: center;
-    position: relative;
-    background-color: #ccc; 
-    height: 1px;
-    align-content: center;
-    margin-top: 45px;
+    }
+    .separateur span {
+        background-color: white;
+        padding: 0 10px;
+        position: relative;
+        z-index: 1;
+        width: 1px; 
+        text-align: center;
+    }
+    .separateur {
+        margin: 35px 0;
+        text-align: center;
+        position: relative;
+        background-color: #ccc; 
+        height: 1px;
+        align-content: center;
+        margin-top: 45px;
     
 }
   .google-button{
