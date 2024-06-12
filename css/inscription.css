@@ -44,6 +44,7 @@ body {
     box-shadow: 10px  var(--silver);
     margin-bottom: 50px;
     outline: #007bff;
+    position: relative;
 }
 
 .content {
@@ -60,8 +61,8 @@ body {
 }
 a.img{
     position: absolute;
-    left: 380px;
-    top: 70px;
+    left: 4%;
+    top: 2%;
 }
   
 .content h1 span {
@@ -277,8 +278,8 @@ P.account {
     }
     a.img{
         position: absolute;
-        left: 30px;
-        top: 20px;
+        
+        top: -15%;
     }
     
     input[type=name],
